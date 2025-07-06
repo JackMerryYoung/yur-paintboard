@@ -136,7 +136,7 @@ pub async fn handle_read(
     }
   }
 
-  return false;
+  false
 }
 
 #[derive(Deserialize)]
